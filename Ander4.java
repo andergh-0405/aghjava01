@@ -31,12 +31,13 @@ public class Ander4 {
         operacion = (base * altura) /2;
         System.out.println("El area del triangulo es: "+operacion);
         
+        System.out.println("+++++++++++***********++++++++++++");
         //circulo
         System.out.println("Ingrese el radio del circulo: ");
         radio = input.nextDouble();
         operacion = Math.PI * Math.pow(radio,2);
         System.out.println("el area del circulo es: "+operacion);
-        
+        System.out.println("+++++++++++***********++++++++++++");
         
     }
 }
